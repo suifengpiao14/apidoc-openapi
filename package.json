@@ -1,0 +1,32 @@
+{
+  "name": "apidoc-openapi",
+  "version": "0.0.1",
+  "description": "convert apidoc to openapi",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/suifengpiao14/apidoc-openapi.git"
+  },
+  "keywords": [
+    "openapi",
+    "apidoc",
+    "auto"
+  ],
+  "author": "suifengpaio14",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suifengpiao14/apidoc-openapi/issues"
+  },
+  "homepage": "https://github.com/suifengpiao14/apidoc-openapi#readme",
+  "dependencies": {
+    "apidoc-core": "^0.8.3",
+    "commander": "^3.0.2",
+    "lodash": "^4.17.15",
+    "marked": "^0.3.3",
+    "nomnom": "^1.8.1",
+    "winston": "^2.4.4"
+  }
+}
